@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Konfirmasi Pembayaran</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Form Konfirmasi Pembayaran Pre-Order Make Up</h1>
+        <form action="#" class="container">
+        <div class="content">
+            <div>
+                <div class="left-div">
+                    <label for="nama">Nama Lengkap</label>
+                </div>
+                <div class="right-div">
+                    <input type="text" name="nama" id="nama" />
+                </div>
+            </div>
+            <div>
+                <div class="left-div">
+                    <label for="telepon">Nomor Telepon</label>
+                </div>
+                <div class="right-div">
+                    <input type="text" name="telepon" id="telepon" />
+                </div>
+            </div>
+            <div>
+                <div class="left-div">
+                    <label for="alamat">Alamat</label><br>
+                </div>
+                <div class="right-div">
+                    <textarea name="alamat" id="alamat" cols="40" rows="4"></textarea>
+                </div>
+            </div>
+            <div>
+                <div class="left-div">
+                    <label for="jeniskelamin">Jenis Kelamin</label><br>
+                </div>
+                <div class="right-div">
+                    <label><input type="radio" name="jeniskelamin" id="jeniskelamin" value="Laki-Laki" /> Laki-Laki</label>
+                    <label><input type="radio" name="jeniskelamin" id="jeniskelamin" value="Perempuan" /> Perempuan</label>
+                </div>
+            </div>
+           <div>
+                <div class="left-div">
+                    <label for="merk">Merk</label>
+                </div>
+                <div class="right-div">
+                    <label><input type="checkbox" name="merk" id="merk" value="NYX" />NYX</label><br>
+                    <label><input type="checkbox" name="merk" id="merk" value="ELF" />ELF</label><br>
+                    <label><input type="checkbox" name="merk" id="merk" value="MAC" />MAC</label><br>
+                    <label><input type="checkbox" name="merk" id="merk" value="Barry M" />Barry M</label><br>
+                    <label><input type="checkbox" name="merk" id="merk" value="Real Techniques" />Real Techniques</label><br>
+                    <label><input type="checkbox" name="merk" id="merk" value="EOS" />EOS</label>
+                </div>
+           </div>
+           <div>
+                <div class="item">
+                    <label for="item">Harap cantumkan semua pesanan Anda di bawah ini. (Nama Item - Jumlah)</label><br>
+                    <textarea name="item" id="item" cols="100" rows="10"></textarea>
+                </div>
+           </div>
+           <div>
+                <div class="left-div">
+                    <label for="kurir">Pilihan Ekspedisi</label>
+                </div>
+                <div class="right-div">
+                    <select name="kurir" id="kurir">
+                        <option value="JNE">JNE</option>
+                        <option value="J&T">J&T</option>
+                        <option value="SiCepat">SiCepat</option>
+                        <option value="AnterAja">AnterAja</option>
+                    </select>
+                </div>
+          </div>
+          <div>
+            <div class="bukti">
+            <label for="bukti">Upload Foto Bukti Pembayaran</label><br>
+            </div>
+            <input type="file" />
+          </div>
+           <p>
+                <input type="button" value="Kirim" onclick="tampilData()"/>
+                <input type="reset" value="Reset"/>   
+           </p>
+        </form>
+    </div>
+    <script src="Praktikum6.js"></script>
+    </body>
+</html>

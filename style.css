@@ -1,0 +1,61 @@
+html{
+    background-image: url('download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.content{
+    background-color: rgba(241, 220, 146, 0.43);
+    border: 2px solid rgb(61, 46, 18);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.left-div{
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    text-align: start;
+    margin-left: 200px;
+    width: 250px;
+    display: inline-block;
+}
+
+.right-div{
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    margin-left: 10px;
+    display:inline-block;
+}
+
+.item{
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    text-align: start;
+    letter-spacing: 1px;
+    margin-left: 200px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.bukti{
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    text-align: start;
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 280px;
+    display: inline-block;
+}
